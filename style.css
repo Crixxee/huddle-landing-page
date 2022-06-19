@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+								/* global styles */
+
+*, *::before, *::after{
+				margin: 0;
+				padding: 0;
+				box-sizing:border-box;				
+}
+
+html{
+				font-family: "open sans", sans-serif;
+				font-weight: 400;
+				font-size: 18px;
+				scroll-behaviour:smooth;						
+}
+
+h1, h2, h3{
+				font-family: "poppins", sans-serif;
+				font-weight:600;
+}
+
+:root{
+				--pink:hsl(322, 100%, 66%);
+				--pale-cyan: hsl(193, 100%, 96%);
+				--dark-cyan: hsl(192, 100%, 9%);
+				--grayish-blue:hsl(208, 11%, 55%);
+}
+
+								/* first-section */
+
+.first{
+				height: 100vh;
+				background: var(--pale-cyan) url("bg-hero-desktop.svg") no-repeat;
+				padding: 36px 59px;
+}
+
+nav{
+				display:flex;
+				justify-content:space-between;
+				align-items:center;
+				margin-bottom: 36px;
+}
+
+.logo img{
+				height: 26px;
+				width: auto;
+}
+
+											/* button */
+
+.button{
+				border:none;
+				outline:none;
+				border-radius: 30px;
+				padding: 17px 64px;
+				font-weight: 700;
+				box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+				
+}
+
+.button:hover{
+				cursor:pointer;
+				opacity:0.8;
+}
+											
+.button.pri{
+				background: white;
+}
+
+.button.sec{
+				background: var(--pink);
+				color: white;
+}
+
+.first-down{
+				display:flex;
+				align-items:center;
+}
+
+.first-down .community{
+				flex:1;
+}
+
+.first-down .community p{
+				margin: 25px 5px;
+} 
+
+.illustration{
+				flex:1;
+}
+
+.img{
+				width: 100%;
+				height:auto ;
+}
