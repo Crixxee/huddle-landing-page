@@ -165,8 +165,8 @@ nav{
 				bottom: -80px;
 				z-index: 10;
 				background: white;
-				left: 30%;
-				transform: translateX(-30)
+				left: 20%;
+				transform: translateX(-20)
 }
 
 .call-action h2{
@@ -209,7 +209,7 @@ footer .contact p img{
 
 .the-links{
 				display:flex;
-        			align-items:flex-start;
+				align-items:flex-start;
 				justify-content:space-around;
 				width: 100%;
 }
@@ -251,18 +251,23 @@ media and screen (max-width:1440px){
 }
 
 
-@media and screen (max-width:375px){
+@media screen and (max-width:375px){
 	.first{
 					padding: 20px;
 					background: var(--pale-cyan) url("bg-hero-mobile.svg") no-repeat; 
 	}
 	
 	.button{
-					padding: 10px 30px;
+					padding: 10px 20px;
+	}
+	
+	h1{
+					font-size:25px;
 	}
 	
 	.logo img{
-					height: 18px;
+					height: 30%;
+					width: 120px;
 	}
 	
 	.first-down{
@@ -271,11 +276,11 @@ media and screen (max-width:1440px){
 	
 	.first-down .community{
 					text-align:center;
-					margin: 3rem 0;
+					margin: 1.5rem 0;
 	}
 	
 	.box{
-					padding: 100px 20px 200px 20px;
+				padding: 100px 20px 200px 20px;
 				
 }
 
@@ -283,17 +288,21 @@ media and screen (max-width:1440px){
 					font-size: 25px;
 	}
 	
-	.box-line{
-					flex-direction: column-reverse;
-				  	text-align:center;
-					height:500px ;
-					padding: 30px 20px;
+	.box-line:nth-child(even){
+					flex-direction: column;
 	}
 	
+	.box-line{
+					flex-direction: column-reverse;
+				 text-align:center;
+					height:500px ;
+					padding: 30px 20px;
+					
+	}
 
-	.box-line .illustration .img{
-					width: 90%;
-					height: auto;
+.community, .box-line .illustration .img{
+				width: 100%;
+				height:auto ;
 }	
 
 .call-action{
@@ -308,8 +317,8 @@ media and screen (max-width:1440px){
 				bottom: -80px;
 				z-index: 10;
 				background: white;
-				left: 50%;
-				transform: translateX(-50);
+				left: 3%;
+				transform: translateX(-3);
 }
 
 .call-action h2{
@@ -332,8 +341,8 @@ footer .socials{
 }
 
 .copyright{
-			 	right: 40%;
-			 	transform: translateX(40);
+			 	right: 2%;
+			 	transform: translateX(2-);
 			 	max-width:300px;
 			 	width:100% ;
 }
