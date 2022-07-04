@@ -77,6 +77,46 @@ nav{
 				background:#FF8DAE;
 }
 
+	              /* animation properties */
+
+h1, .build {
+                                animation-duration: 3s;
+                                animation-name: slidein;
+}
+
+@keyframes slidein {
+              from {
+                                margin-left: 100%;
+                                width: 300%;
+}
+
+              75% {
+                                font-size: 200%;
+                                margin-left: 25%;
+                                width: 150%;
+}
+
+               to {
+                                margin-left: 5px;
+                                width: 100%;
+}
+}
+
+.button.sec.ani{
+				animation: pulse 3s linear infinite;
+				transform-origin:
+}
+
+.button.sec.ani:hover{
+				animation:none;
+}
+
+@keyframes pulse{
+				from { transform: scale(1); }
+				50% { transform: scale(0.85);} 	
+			        to { transform: scale(1); }																							
+}
+
 .first-down{
 				display:flex;
 				align-items:center;
